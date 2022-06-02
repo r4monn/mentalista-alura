@@ -1,0 +1,166 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 600px;
+  background-image: url("https://images8.alphacoders.com/879/thumb-1920-879362.jpg");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+p {
+  font-family: "Pompiere", cursive;
+  font-weight: 100;
+  text-align: center;
+  font-size: 15px;
+  color: #fff;
+}
+
+h2 {
+  font-family: "Pompiere", cursive;
+  font-weight: 100;
+  text-align: center;
+  font-size: 15px;
+  color: #fff;
+}
+
+h3 {
+  font-family: "Pompiere", cursive;
+  font-weight: 100;
+  text-align: center;
+  font-size: 15px;
+  color: #fff;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 16px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+@media (max-height: 500px) {
+  body {
+    min-height: 800px;
+  }
+}
+
+input {
+  margin: 4px;
+  padding: 4px 8px;
+  border-radius: 5px;
+  color: #fff;
+  width: 100px;
+  padding: 10px 25px;
+  font-family: "Lato", sans-serif;
+  font-weight: 500
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: transparent;
+  position: relative;
+  display: inline-block;
+}
+
+input {
+  color: #b22222;
+  border: 1px solid#B22222;
+  box-shadow: 0 0 5px #b22222, 0 0 5px #b22222 inset;
+  z-index: 1;
+}
+input:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  background: #b22222;
+  box-shadow: 0 0 20px #b22222;
+  transition: all 0.3s ease;
+}
+input:hover {
+  color: #fff;
+}
+input:hover:after {
+  left: 0;
+  width: 100%;
+}
+input:active {
+  top: 2px;
+}
+
+button {
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: #000000;
+}
+.bchutar {
+  color: #fff;
+  width: 100px;
+  height: 40px;
+  padding: 10px 25px;
+  font-family: "Lato", sans-serif;
+  font-weight: 500
+  cursor: pointer;
+  background: transparent;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+
+.bchutar {
+  color: #b22222;
+  border: 1px solid#B22222;
+  box-shadow: 0 0 5px #b22222, 0 0 5px #b22222 inset;
+  z-index: 1;
+}
+.bchutar:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  background: #b22222;
+  box-shadow: 0 0 20px #b22222;
+  transition: all 0.3s ease;
+}
+.bchutar:hover {
+  color: #fff;
+}
+.bchutar:hover:after {
+  left: 0;
+  width: 100%;
+}
+.bchutar:active {
+  top: 2px;
+}
+
+.resultado {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 16px;
+}
